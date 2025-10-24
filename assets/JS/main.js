@@ -647,22 +647,22 @@ function aboutPage(lang){
       <div class="card partners-card col-12 col-sm-3"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img1}" alt="">
         <div class="card-body text-center pt-5 pb-0">
-          <h4>Muhammad Mahmoud</h4>
-          <p>HTML CSS JS</p>
+          <h4>muhammad_ 297424</h4>
+          <p>JS with some HTML and CSS</p>
         </div>
       </div>
       <div class="card partners-card col-12 col-sm-3"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img2}" alt="">
         <div class="card-body text-center pt-5 pb-0">
-          <h4>Muhammad Mahmoud</h4>
-          <p>HTML CSS JS</p>
+          <h4>hanan-209285</h4>
+          <p>HTML</p>
         </div>
       </div>
       <div class="card partners-card col-12 col-sm-3"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img3}" alt="">
         <div class="card-body text-center pt-5 pb-0">
-          <h4>Muhammad Mahmoud</h4>
-          <p>HTML CSS JS</p>
+          <h4></h4>
+          <p>CSS</p>
         </div>
       </div>
       <div class="col-1"></div>
