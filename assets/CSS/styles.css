@@ -1,0 +1,155 @@
+*{
+  font-family:'Cairo','Times New Roman', sans-serif;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+}
+
+header{
+  color: white;
+  font-weight: bold;
+  padding: 0 3%;
+  background-color: cornflowerblue;
+}
+
+.nav-link{
+  font-weight: bold;
+  font-size: medium;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.logo{
+  font-size: xx-large;
+}
+
+li{
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+li ul{
+  font-weight: bold;
+  position: relative;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.underliner{
+  position: absolute;
+  background-color: white;
+  right: 0;
+  left: 0;
+  height: 3px;
+  margin-top: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+ul a:hover .underliner{
+  opacity: 1;
+  margin-top: 3px;
+  transition: opacity 0.15s, margin-top 0.3s;
+}
+
+.s-flag-ar, .a-flag-en{
+  height: 20px;
+  cursor: pointer;
+}
+
+main{
+  min-height: calc(100vh - 128px);
+  margin-bottom: 10px;
+}
+
+.carousel{
+  max-height: 625px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.partners-card{
+  position: relative;
+  border-radius: 15px;
+}
+
+.about-main{
+  text-align: justify;
+  display: grid;
+  align-items: center;
+}
+
+.partners-img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50%;
+  left: calc(50% - 50px);
+  object-fit: cover;
+  object-position: center;
+}
+
+.partners{
+  margin-top: 80px;
+}
+
+form{
+  min-width: 320px;
+  max-width: 38%;
+  min-height: fit-content;
+  max-height: 500px;
+  border: 1px solid cornflowerblue !important;
+  border-radius: 15px !important;
+  box-shadow: 0 0 50px cornflowerblue;
+}
+
+@media (max-width: 1199px){
+  form{
+    max-width: 50%;
+  }
+}
+@media (max-width: 900px){
+  form{
+    max-width: 60%;
+  }
+}
+@media (max-width: 750px){
+  form{
+    max-width: 80%;
+  }
+}
+@media (max-width: 570px){
+  form{
+    max-width: 90%;
+  }
+}
+
+footer{
+  color: white;
+  font-weight: bold;
+  padding: 10px 3%;
+  display: flex;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+}
+
+.event-img{
+  object-fit: cover;
+}
+
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}

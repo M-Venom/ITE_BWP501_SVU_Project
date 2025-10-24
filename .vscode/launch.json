@@ -1,0 +1,20 @@
+{
+  // Launch configurations: open current HTML file in browser (Chrome/Edge) or launch localhost URL.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch current HTML (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${file}"
+    },
+    {
+      "name": "Launch Edge against localhost",
+      "type": "msedge",
+      "request": "launch",
+      "runtimeExecutable": "msedge",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+  ]
+}
