@@ -53,15 +53,13 @@ let arAbout = {
   p:"دليل فعاليات المدينة هو منصتك الموثوقة لاستكشاف كل ما يحدث في مدينتك. نسعى إلى تقديم معلومات شاملة ومحدثة عن الفعاليات الثقافية، الترفيهية، الرياضية، والفنية لتسهيل تنسيق جدولك واختيار النشاطات التي تناسب اهتماماتك. هدفنا هو ربط السكان والزوار بالمناسبات المحلية بكل سهولة ويسر، مع توفير تفاصيل دقيقة عن مكان وتوقيت وأهمية كل فعالية. نسعى من خلال هذا الدليل إلى تعزيز التواصل المجتمعي وتشجيع المشاركة في الحياة المحلية. للتواصل والملاحظات, راسلنا على:",
   policy:"نحرص في موقع دليل فعاليات المدينة على نشر محتوى عالي الجودة يتميز بالدقة والموضوعية، ويتماشى مع قيمنا الأخلاقية والمهنية. يُمنع نشر أي مواد تحتوي على محتوى مسيء أو مخالف للقوانين أو حقوق الملكية الفكرية. نحتفظ بحق تعديل أو حذف أي محتوى لا يتوافق مع معاييرنا، ونرحب بالمستخدمين الذين يلتزمون بالمشاركة البناءة والاحترام المتبادل. كما نلتزم بحماية بيانات المستخدمين وعدم استخدامها إلا للأغراض المتعلقة بتحسين تجربة تصفح الموقع.",
   img1:"assets/Img/avatar-man.jpg",
-  img2:"assets/Img/avatar-woman.jpg",
-  img3:"assets/Img/avatar-man.jpg"
+  img2:"assets/Img/avatar-woman.jpg"
 };
 let enAbout = {
   p:"The City Events Directory is your trusted platform to explore everything happening in your city. We aim to provide comprehensive and up-to-date information about cultural, entertainment, sports, and artistic events, making it easy for you to plan your schedule and choose activities that match your interests. Our goal is to connect residents and visitors with local happenings seamlessly, offering detailed information about each event’s location, time, and importance. Through this directory, we strive to foster community engagement and encourage participation in local life. For communication and comments, please contact us at:", 
   policy:"We are committed to publishing high-quality content that is accurate and objective, aligned with our ethical and professional values. Any content containing offensive or illegal material, or infringing on intellectual property rights, is strictly prohibited. We reserve the right to edit or remove content that does not meet our standards. We also welcome users who participate constructively and respectfully. Additionally, we are dedicated to protecting user data and will not use it beyond improving the browsing experience on our site.",
   img1:"assets/Img/avatar-man.jpg",
-  img2:"assets/Img/avatar-woman.jpg",
-  img3:"assets/Img/avatar-man.jpg"
+  img2:"assets/Img/avatar-woman.jpg"
 };
 
 // for filter option
@@ -643,29 +641,22 @@ function aboutPage(lang){
     </p>
     <!-- فريق العمل -->
     <div class="row justify-content-around partners">
-      <div class="col-1"></div>
-      <div class="card partners-card col-12 col-sm-3"> 
+      <div class="col-2"></div>
+      <div class="card partners-card col-12 col-sm-4"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img1}" alt="">
         <div class="card-body text-center pt-5 pb-0">
           <h4>muhammad_ 297424</h4>
           <p>JS with some HTML and CSS</p>
         </div>
       </div>
-      <div class="card partners-card col-12 col-sm-3"> 
+      <div class="card partners-card col-12 col-sm-4"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img2}" alt="">
         <div class="card-body text-center pt-5 pb-0">
           <h4>hanan-209285</h4>
-          <p>HTML</p>
+          <p>HTML CSS</p>
         </div>
       </div>
-      <div class="card partners-card col-12 col-sm-3"> 
-        <img class="partners-img rounded-circle object-fit-fill" src="${arr.img3}" alt="">
-        <div class="card-body text-center pt-5 pb-0">
-          <h4></h4>
-          <p>CSS</p>
-        </div>
-      </div>
-      <div class="col-1"></div>
+      <div class="col-2"></div>
     </div>
     <!-- سياسةالنشر -->
     <div class="row">
