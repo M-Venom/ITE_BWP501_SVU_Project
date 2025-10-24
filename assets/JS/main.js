@@ -636,12 +636,12 @@ function aboutPage(lang){
   let share = lang == "ar" ? "سياسة النشر" : "Publication policy";
   let about = document.getElementById('about-main');
   let vHtml = `
-    <p class="px-5 text-center">
+    <p class="px-3 text-center">
       ${arr.p} info@cityevents.com
     </p>
     <!-- فريق العمل -->
     <div class="row justify-content-around partners">
-      <div class="col-2"></div>
+      <div class="col-1"></div>
       <div class="card partners-card col-12 col-sm-4"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img1}" alt="">
         <div class="card-body text-center pt-5 pb-0">
@@ -649,14 +649,15 @@ function aboutPage(lang){
           <p>JS with some HTML and CSS</p>
         </div>
       </div>
-      <div class="card partners-card col-12 col-sm-4"> 
+      <div class="col-2"></div>
+      <div id="woman-partner" class="card partners-card col-12 col-sm-4"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img2}" alt="">
         <div class="card-body text-center pt-5 pb-0">
           <h4>hanan-209285</h4>
           <p>HTML CSS</p>
         </div>
       </div>
-      <div class="col-2"></div>
+      <div class="col-1"></div>
     </div>
     <!-- سياسةالنشر -->
     <div class="row">

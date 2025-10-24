@@ -153,3 +153,13 @@ footer{
   object-fit: cover;
   object-position: top;
 }
+
+@media (max-width: 575px){
+  #woman-partner{
+    margin-top: 75px;
+  }
+}
+
+.text-center{
+  text-align: justify;
+}
