@@ -16,14 +16,14 @@ let enData = {
 
 // بيانات للصفخة الرئيسية
 let arIndexData = {
-  sliderImg: ["assets/Img/technology-exhibition.jpg", "assets/Img/race-event.jpg", "assets/Img/select-your-major.jpeg"],
+  sliderImg: ["assets/Img/slider-1.jpeg", "assets/Img/technology-exhibition.jpg", "assets/Img/race-event.jpg", "assets/Img/select-your-major.jpeg"],
   h3: ["التصنيفات السريعة", "احدث الفعاليات"],
   btnGroup: ["ثقافة", "موسيفى", "عائلي"],
   fastEventsTitle: ["المعرض الكبير", "سباق السيارات", "معارض تكنلوجيا المعلومات"],
   fastEventsImg: ["assets/Img/Big-exhibition.webp", "assets/Img/race-event.jpg", "assets/Img/technology-exhibition.jpg"]
 };
 let enIndexData = {
-  sliderImg: ["assets/Img/technology-exhibition.jpg", "assets/Img/race-event.jpg", "assets/Img/select-your-major.jpeg"],
+  sliderImg: ["assets/Img/slider-1.jpeg", "assets/Img/technology-exhibition.jpg", "assets/Img/race-event.jpg", "assets/Img/select-your-major.jpeg"],
   h3: ["Quick ranks", "Newest events"],
   btnGroup: ["Cultural", "Musical", "Family"],
   fastEventsTitle:["The Big Exhibition", "Car Racing", "Information Technology Exhibitions"],
