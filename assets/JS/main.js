@@ -1,16 +1,16 @@
 // بيانات عامة
 let arData = {
-  headerTitle: "دليل فعاليات المدينة",
+  headerTitle: "دليل فعاليات الجامعة الافتراضية",
   headerList:["الرئيسية", "الفعاليات", "اتصل بنا", "عن الدليل"],
   headerListLinks: ["index.html", "events.html", "contact.html", "about.html"],
-  footerP: " دليل فعاليات المدينة | للتواصل",
+  footerP: " دليل فعاليات الجامعة الافتراضية | للتواصل",
   eventsTitle: "تصفية الفعاليات حسب"
 };
 let enData = {
-  headerTitle: "City events guide",
+  headerTitle: "SVU events guide",
   headerList: [ "Home", "Events", "Contact Us", "About"],
   headerListLinks: ["index.html", "events.html", "contact.html", "about.html"],
-  footerP: "City events guide | Contact us on",
+  footerP: "SVU events guide | Contact us on",
   eventsTitle: "Filter events by"
 };
 
@@ -50,13 +50,13 @@ let enContact = {
 
 // بيانات عن الدليل
 let arAbout = {
-  p:"دليل فعاليات المدينة هو منصتك الموثوقة لاستكشاف كل ما يحدث في مدينتك. نسعى إلى تقديم معلومات شاملة ومحدثة عن الفعاليات الثقافية، الترفيهية، الرياضية، والفنية لتسهيل تنسيق جدولك واختيار النشاطات التي تناسب اهتماماتك. هدفنا هو ربط السكان والزوار بالمناسبات المحلية بكل سهولة ويسر، مع توفير تفاصيل دقيقة عن مكان وتوقيت وأهمية كل فعالية. نسعى من خلال هذا الدليل إلى تعزيز التواصل المجتمعي وتشجيع المشاركة في الحياة المحلية. للتواصل والملاحظات, راسلنا على:",
-  policy:"نحرص في موقع دليل فعاليات المدينة على نشر محتوى عالي الجودة يتميز بالدقة والموضوعية، ويتماشى مع قيمنا الأخلاقية والمهنية. يُمنع نشر أي مواد تحتوي على محتوى مسيء أو مخالف للقوانين أو حقوق الملكية الفكرية. نحتفظ بحق تعديل أو حذف أي محتوى لا يتوافق مع معاييرنا، ونرحب بالمستخدمين الذين يلتزمون بالمشاركة البناءة والاحترام المتبادل. كما نلتزم بحماية بيانات المستخدمين وعدم استخدامها إلا للأغراض المتعلقة بتحسين تجربة تصفح الموقع.",
+  p:"دليل فعاليات الجامعة الافتراضية هو منصتك الموثوقة لاستكشاف كل ما يحدث في جامعتك. نسعى إلى تقديم معلومات شاملة ومحدثة عن الفعاليات الثقافية، الترفيهية، الرياضية، والفنية لتسهيل تنسيق جدولك واختيار النشاطات التي تناسب اهتماماتك. هدفنا هو ربط السكان والزوار بالمناسبات المحلية بكل سهولة ويسر، مع توفير تفاصيل دقيقة عن مكان وتوقيت وأهمية كل فعالية. نسعى من خلال هذا الدليل إلى تعزيز التواصل الطلابي وتشجيع المشاركة في الحياة المحلية. للتواصل والملاحظات, راسلنا على:",
+  policy:"نحرص في موقع دليل فعاليات الجامعة الافتراضية على نشر محتوى عالي الجودة يتميز بالدقة والموضوعية، ويتماشى مع قيمنا الأخلاقية والمهنية. يُمنع نشر أي مواد تحتوي على محتوى مسيء أو مخالف للقوانين أو حقوق الملكية الفكرية. نحتفظ بحق تعديل أو حذف أي محتوى لا يتوافق مع معاييرنا، ونرحب بالمستخدمين الذين يلتزمون بالمشاركة البناءة والاحترام المتبادل. كما نلتزم بحماية بيانات المستخدمين وعدم استخدامها إلا للأغراض المتعلقة بتحسين تجربة تصفح الموقع.",
   img1:"assets/Img/avatar-man.jpg",
   img2:"assets/Img/avatar-woman.jpg"
 };
 let enAbout = {
-  p:"The City Events Directory is your trusted platform to explore everything happening in your city. We aim to provide comprehensive and up-to-date information about cultural, entertainment, sports, and artistic events, making it easy for you to plan your schedule and choose activities that match your interests. Our goal is to connect residents and visitors with local happenings seamlessly, offering detailed information about each event’s location, time, and importance. Through this directory, we strive to foster community engagement and encourage participation in local life. For communication and comments, please contact us at:", 
+  p:"The SVU Events Directory is your trusted platform to explore everything happening in your SVU. We aim to provide comprehensive and up-to-date information about cultural, entertainment, sports, and artistic events, making it easy for you to plan your schedule and choose activities that match your interests. Our goal is to connect residents and visitors with local happenings seamlessly, offering detailed information about each event’s location, time, and importance. Through this directory, we strive to foster community engagement and encourage participation in local life. For communication and comments, please contact us at:", 
   policy:"We are committed to publishing high-quality content that is accurate and objective, aligned with our ethical and professional values. Any content containing offensive or illegal material, or infringing on intellectual property rights, is strictly prohibited. We reserve the right to edit or remove content that does not meet our standards. We also welcome users who participate constructively and respectfully. Additionally, we are dedicated to protecting user data and will not use it beyond improving the browsing experience on our site.",
   img1:"assets/Img/avatar-man.jpg",
   img2:"assets/Img/avatar-woman.jpg"
@@ -116,7 +116,7 @@ let arEvents = [{
     img1: "",
     img2: "",
     img3: "",
-    map: "assets/Img/exhibition-city.png"
+    map: "assets/Img/exhibition-SVU.png"
   },
   {
     name: "معارض تكنلوجيا المعلومات",
@@ -160,7 +160,7 @@ let enEvents = [{
   {
     name: "Children's Games Event",
     date: "5/7/2025",
-    place: "Amusement City",
+    place: "Amusement SVU",
     rank: "Children's Activities",
     discription: "Games festival and entertaining shows suitable for children and families.",
     img: "assets/Img/kids-event.jpg",
@@ -184,14 +184,14 @@ let enEvents = [{
   {
     name: "The Big Exhibition",
     date: "15/10/2025",
-    place: "Exhibition City",
+    place: "Exhibition SVU",
     rank: "Educational Events",
     discription: "An exhibition featuring local shops and showcases of products and services.",
     img: "assets/Img/Big-exhibition.webp",
     img1: "",
     img2: "",
     img3: "",
-    map: "assets/Img/exhibition-city.png"
+    map: "assets/Img/exhibition-SVU.png"
   },
   {
     name: "Information Technology Exhibitions",
@@ -232,23 +232,23 @@ function arLang(){
   const eventId = params.get("id");
   switch (currentPage) {
     case "index.html":
-      title.innerHTML = "دليل فعاليات المدينة";
+      title.innerHTML = "دليل فعاليات الجامعة الافتراضية";
       indexPage(html.lang);
       break;
     case "about.html":
-      title.innerHTML = "دليل فعاليات المدينة | عن الدليل";
+      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | عن الدليل";
       aboutPage(html.lang);
       break;
     case "contact.html":
-      title.innerHTML = "دليل فعاليات المدينة | اتصل بنا";
+      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | اتصل بنا";
       contactPage(html.lang);
       break;
     case "events.html":
-      title.innerHTML = "دليل فعاليات المدينة | الفعاليات";
+      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | الفعاليات";
       eventsPage(html.lang);
       break;
     case "event.html" + "?id=" + eventId:
-      title.innerHTML = "دليل فعاليات المدينة | الفعالية";
+      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | الفعالية";
       eventPage(eventId, html.lang);
       break;
   }
@@ -264,22 +264,22 @@ function enLang(){
   switch (currentPage) {
     case "index.html":
       indexPage(html.lang);
-      title.innerHTML = "City Events Guide";
+      title.innerHTML = "SVU Events Guide";
       break;
     case "about.html":
-      title.innerHTML = "City Events Guide | About";
+      title.innerHTML = "SVU Events Guide | About";
       aboutPage(html.lang);
       break;
     case "contact.html":
-      title.innerHTML = "City Events Guide | Contact";
+      title.innerHTML = "SVU Events Guide | Contact";
       contactPage(html.lang);
       break;
     case "events.html":
-      title.innerHTML = "City Events Guide | Events";
+      title.innerHTML = "SVU Events Guide | Events";
       eventsPage(html.lang);
       break;
     case "event.html" + "?id=" + eventId:
-      title.innerHTML = "City Events Guide | Event";
+      title.innerHTML = "SVU Events Guide | Event";
       eventPage(eventId, html.lang);
       break;
   }
@@ -322,7 +322,7 @@ function footer(lang) {
   let arr = lang == "ar" ? arData : enData;
   const footer = document.getElementsByTagName('footer')[0];
   let vHtml = `
-    <div class="footer-contact"><a href="mailto:info@cityevents.com">${arr.footerP}: info@cityevents.com</a></div>
+    <div class="footer-contact"><a href="mailto:info@svuevents.com">${arr.footerP}: info@svuevents.com</a></div>
     <div class="footer-contact-icon">
       <a href="#" class="text-white me-2" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
       <a href="#" class="text-white me-2" aria-label="X (Twitter)"><i class="bi bi-x" aria-hidden="true"></i></a>
@@ -583,7 +583,7 @@ function contactPage(lang){
       </div>
       <div class="row my-3 g-2 d-flex align-items-center">
         <p class="col-md-4 col-12 form-label">&#8226; ${arr.otherWays}</p>
-        <a href="mailto:#" class="text-black-50 col-md-4 col-12 mt-0">info@cityevents.com</a>
+        <a href="mailto:#" class="text-black-50 col-md-4 col-12 mt-0">info@svuevents.com</a>
         <div class="d-flex gap-2 col-md-4 col-12 justify-content-center mt-0">
           <a href="#" class="text-black-50">
             <i class="bi bi-facebook"></i>
@@ -633,13 +633,15 @@ function contactPage(lang){
 // انشاء صفحة عن الدليل
 function aboutPage(lang){
   let arr = lang == "ar" ? arAbout : enAbout;
+  let team = lang == "ar" ? "فريق العمل" : "Our Team";
   let share = lang == "ar" ? "سياسة النشر" : "Publication policy";
   let about = document.getElementById('about-main');
   let vHtml = `
     <p class="px-3 text-center">
-      ${arr.p} info@cityevents.com
+      ${arr.p} info@svuevents.com
     </p>
     <!-- فريق العمل -->
+    <h2><b>${team}</b></h2>
     <div class="row justify-content-around partners">
       <div class="col-1"></div>
       <div class="card partners-card col-12 col-sm-4"> 
@@ -653,7 +655,7 @@ function aboutPage(lang){
       <div id="woman-partner" class="card partners-card col-12 col-sm-4"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img2}" alt="">
         <div class="card-body text-center pt-5 pb-0">
-          <h4>hanan-209285</h4>
+          <h4>marian_000000</h4>
           <p>HTML CSS</p>
         </div>
       </div>
