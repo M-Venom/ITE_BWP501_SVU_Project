@@ -1,5 +1,5 @@
 *{
-  font-family:'Cairo','Times New Roman', sans-serif;
+  font-family:'Cairo','Times New Roman', sans-serif, serif;
 }
 
 body{
@@ -10,7 +10,7 @@ body{
 header{
   color: white;
   font-weight: bold;
-  padding: 0 3%;
+  padding: 0 2%;
   background-color: cornflowerblue;
 }
 
@@ -162,4 +162,26 @@ footer{
 
 .text-center{
   text-align: justify;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.card{
+  height: 100%;
+}
+
+.card-body{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+.card-body button{
+  margin-top: auto !important;
 }
