@@ -1,37 +1,23 @@
 // بيانات عامة
-let arData = {
+let data = {
   headerTitle: "دليل فعاليات الجامعة الافتراضية",
   headerList:["الرئيسية", "الفعاليات", "اتصل بنا", "عن الدليل"],
   headerListLinks: ["index.html", "events.html", "contact.html", "about.html"],
   footerP: " دليل فعاليات الجامعة الافتراضية | للتواصل",
-  eventsTitle: "تصفية الفعاليات حسب"
-};
-let enData = {
-  headerTitle: "SVU events guide",
-  headerList: [ "Home", "Events", "Contact Us", "About"],
-  headerListLinks: ["index.html", "events.html", "contact.html", "about.html"],
-  footerP: "SVU events guide | Contact us on",
-  eventsTitle: "Filter events by"
+  eventsTitle: "فلترة الفعاليات حسب"
 };
 
 // بيانات للصفخة الرئيسية
-let arIndexData = {
-  sliderImg: ["assets/Img/slider-1.jpeg", "assets/Img/race-event.jpg", "assets/Img/select-your-major.jpeg"],
+let indexData = {
+  sliderImg: ["assets/Img/slider-1.jpeg", "assets/Img/drone-competition.png", "assets/Img/day-with-tutor.jpg"],
   h3: ["التصنيفات السريعة", "احدث الفعاليات"],
-  btnGroup: ["ثقافة", "موسيفى", "عائلي"],
-  fastEventsTitle: ["المعرض الكبير", "سباق السيارات", "معارض تكنلوجيا المعلومات"],
-  fastEventsImg: ["assets/Img/Big-exhibition.webp", "assets/Img/race-event.jpg", "assets/Img/technology-exhibition.jpg"]
-};
-let enIndexData = {
-  sliderImg: ["assets/Img/slider-1.jpeg", "assets/Img/race-event.jpg", "assets/Img/select-your-major.jpeg"],
-  h3: ["Quick ranks", "Newest events"],
-  btnGroup: ["Cultural", "Musical", "Family"],
-  fastEventsTitle:["The Big Exhibition", "Car Racing", "Information Technology Exhibitions"],
-  fastEventsImg: ["assets/Img/Big-exhibition.webp", "assets/Img/race-event.jpg", "assets/Img/technology-exhibition.jpg"]
+  btnGroup: ["حفلات تخرج", "ندوات", "مسابقات"],
+  fastEventsTitle: ["ندوات برمجة", "سباق درونز", "معارض تكنلوجيا المعلومات"],
+  fastEventsImg: ["assets/Img/code-competition.jpg", "assets/Img/drone-competition.png", "assets/Img/technology-exhibition.jpg"]
 };
 
 // بيانات اتصل بنا
-let arContact = {
+let contact = {
   title: "تواصل معنا",
   nameTab: "الاسم",
   emailTab: "البريد الالكتروني",
@@ -39,88 +25,72 @@ let arContact = {
   button: "ارسال",
   otherWays: "وسائل اخرى للتواصل:"
 };
-let enContact = {
-  title: "Contact Us",
-  nameTab: "Name",
-  emailTab: "Email",
-  messageTab: "Message",
-  button: "Send",
-  otherWays: "Other ways to contact"
-};
 
 // بيانات عن الدليل
-let arAbout = {
+let about = {
   p:"دليل فعاليات الجامعة الافتراضية هو منصتك الموثوقة لاستكشاف كل ما يحدث في جامعتك. نسعى إلى تقديم معلومات شاملة ومحدثة عن الفعاليات الثقافية، الترفيهية، الرياضية، والفنية لتسهيل تنسيق جدولك واختيار النشاطات التي تناسب اهتماماتك. هدفنا هو ربط السكان والزوار بالمناسبات المحلية بكل سهولة ويسر، مع توفير تفاصيل دقيقة عن مكان وتوقيت وأهمية كل فعالية. نسعى من خلال هذا الدليل إلى تعزيز التواصل الطلابي وتشجيع المشاركة في الحياة المحلية. للتواصل والملاحظات, راسلنا على:",
   policy:"نحرص في موقع دليل فعاليات الجامعة الافتراضية على نشر محتوى عالي الجودة يتميز بالدقة والموضوعية، ويتماشى مع قيمنا الأخلاقية والمهنية. يُمنع نشر أي مواد تحتوي على محتوى مسيء أو مخالف للقوانين أو حقوق الملكية الفكرية. نحتفظ بحق تعديل أو حذف أي محتوى لا يتوافق مع معاييرنا، ونرحب بالمستخدمين الذين يلتزمون بالمشاركة البناءة والاحترام المتبادل. كما نلتزم بحماية بيانات المستخدمين وعدم استخدامها إلا للأغراض المتعلقة بتحسين تجربة تصفح الموقع.",
   img1:"assets/Img/avatar-man.jpg",
   img2:"assets/Img/avatar-woman.jpg"
 };
-let enAbout = {
-  p:"The SVU Events Directory is your trusted platform to explore everything happening in your SVU. We aim to provide comprehensive and up-to-date information about cultural, entertainment, sports, and artistic events, making it easy for you to plan your schedule and choose activities that match your interests. Our goal is to connect residents and visitors with local happenings seamlessly, offering detailed information about each event’s location, time, and importance. Through this directory, we strive to foster community engagement and encourage participation in local life. For communication and comments, please contact us at:", 
-  policy:"We are committed to publishing high-quality content that is accurate and objective, aligned with our ethical and professional values. Any content containing offensive or illegal material, or infringing on intellectual property rights, is strictly prohibited. We reserve the right to edit or remove content that does not meet our standards. We also welcome users who participate constructively and respectfully. Additionally, we are dedicated to protecting user data and will not use it beyond improving the browsing experience on our site.",
-  img1:"assets/Img/avatar-man.jpg",
-  img2:"assets/Img/avatar-woman.jpg"
-};
 
 // for filter option
-let dateOption = ["1/6/2025", "5/7/2025", "17/10/2025", "15/10/2025", "15/11/2025", "11/11/2025"];
-let arRankOption = ["رياضية", "اطفال", "ثقافية", "تقنية", "عائلية"];
-let arLocationOption = ["حلبة نادي السيارات السوري", "مدينة الملاهي", "مدرسة جودت الهاشمي", "مدينة المعارض", "فندف الداماروز", "مسرح الحمراء"];
-let enRankOption = ["Sporty", "Childish", "Cultural", "Techology", "Family"];
-let enLocationOption = ["Syrian Automobile Club Race Track", "Intertanment Land", "Jaudat Al-Hashmi Shcool", "Exibitions Land", "Dama Roze hotel", "Al-Hamraa Theater"]
+let dateOption = ["1/6/2026", "5/7/2026", "17/10/2026", "15/10/2026", "15/11/2026", "11/11/2026"];
+let rankOption = ["رياضية", "ثقافية", "تقنية", "امنية", "حفلات تخرج"];
+let locationOption = ["حلبة نادي السيارات السوري", "مقر الجامعة الافتراضية في كفرسوسة", "مدينة المعارض", "فندف الداماروز", "دار الاوبرا في دمشق"];
 
 // البيانات العربية للكروت
-let arEvents = [{
-    name: "فعالية سباق السيارات",
-    date: "1/6/2025",
+let events = [{
+    name: "فعالية سباق الدرونز",
+    date: "1/6/2026",
     place: "حلبة نادي السيارات السوري",
     rank: "فعاليات رياضية",
-    discription: "سباق سيارات مثير بمشاركة سائقين محليين ومحترفين.",
-    img: "assets/Img/race-event.jpg",
+    discription: "سباق درونز مثير بمشاركة سائقين محليين محترفين و هاوين.",
+    img: "assets/Img/drone-competition.png",
     img1: "",
     img2: "",
     img3: "",
     map: "assets/Img/racetrack.png"
   },
   {
-    name: "فعالية العاب الاطفال",
-    date: "5/7/2025",
-    place: "مدينة الملاهي",
-    rank: "فعاليات اطفال",
-    discription: "مهرجان ألعاب وعروض ترفيهية مناسبة للأطفال والعائلات.",
-    img: "assets/Img/kids-event.jpg",
+    name: "المسابقة البرمجية السورية",
+    date: "5/7/2026",
+    place: "مقر الجامعة الافتراضية في كفرسوسة",
+    rank: "فعاليات تقنية",
+    discription: "مسابقة سنوية تقوم بها الجامعة الافتراضية السورية كل سنة لطلابها المهتمين في عالم البرمجة.",
+    img: "assets/Img/code-competition.jpg",
     img1: "",
     img2: "",
     img3: "",
-    map: "assets/Img/intertanment-land.png"
+    map: "assets/Img/svu_ks_center.png"
   },
   {
-    name: "ورشة اختر تخصصك صح",
-    date: "17/10/2025",
-    place: "مدرسة جودت الهاشمي",
-    rank: "فعاليات ثقافية",
-    discription: "ورشة إرشادية تساعدك على اختيار التخصص الجامعي الصحيح.",
-    img: "assets/Img/select-your-major.jpeg",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/jaudat-alhashmi-school.png"
-  },
-  {
-    name: "المعرض الكبير",
-    date: "15/10/2025",
+    name: "مسابقة الامن السيبراني ",
+    date: "17/10/2026",
     place: "مدينة المعارض",
-    rank: "فعاليات ثقافية",
-    discription: "معرض يضم عروضًا ومحلات محلية لعرض المنتجات والخدمات.",
-    img: "assets/Img/Big-exhibition.webp",
+    rank: "فعاليات امنية",
+    discription: "مسابقة محلية تجمع العديد من المواهب المهمة من الناحية التقنية والتي لها اهمية كبيرة في مجال حماية المعلومات.",
+    img: "assets/Img/cybersecurity-competition.jpg",
     img1: "",
     img2: "",
     img3: "",
-    map: "assets/Img/exhibition-SVU.png"
+    map: "assets/Img/exhibition-city.png"
+  },
+  {
+    name: "حفل التخرج الخامس والعشرين",
+    date: "15/10/2026",
+    place: "دار الاوبرا في دمشق",
+    rank: "حفل تخرج",
+    discription: "حفل التخرج الخامس والعشرين في الجامعة الافتراضية السورية، احتفال بتخرج دفعة جديدة من الطلاب والطالبات الذين أكملوا دراستهم بنجاح.",
+    img: "assets/Img/graduation-party.jpeg",
+    img1: "",
+    img2: "",
+    img3: "",
+    map: "assets/Img/opra-house.png"
   },
   {
     name: "معارض تكنلوجيا المعلومات",
-    date: "15/11/2025",
+    date: "15/11/2026",
     place: "فندف الداماروز",
     rank: "فعاليات تقنية",
     discription: "معرض تقني يحتوي على شركات وعروض لأحدث حلول تكنولوجيا المعلومات.",
@@ -131,164 +101,23 @@ let arEvents = [{
     map: "assets/Img/dama-rose-hotel.png"
   },
   {
-    name: "فعالية اسرة واحدة",
-    date: "11/11/2025",
-    place: "مسرح الحمراء",
-    rank: "فعاليات عائلية",
-    discription: "احتفالية عائلية بعروض مسرحية وأنشطة ترفيهية مشتركة.",
-    img: "assets/Img/one-family.jpg",
+    name: "يوم تفاعلي مع الدكتور",
+    date: "11/11/2026",
+    place: "مقر الجامعة الافتراضية في كفرسوسة",
+    rank: "فعاليات ثقافية",
+    discription: "فعالية طلابية تجمع بين دكتور مادة معينة مع طلابه لكي يتسنى لهم التفاعل فيزيائيا في قاعة مجهزة بجميع المستلزمات.",
+    img: "assets/Img/day-with-tutor.jpg",
     img1: "",
     img2: "",
     img3: "",
-    map: "assets/Img/alhamraa-theater.png"
+    map: "assets/Img/svu_ks_center.png"
   }
 ];
-
-// المعلومات الانكليزية للكروت
-let enEvents = [{
-    name: "Car Race Event",
-    date: "1/6/2025",
-    place: "Syrian Car Club Circuit",
-    rank: "Sports Events",
-    discription: "An exciting car race with local and professional drivers participating.",
-    img: "assets/Img/race-event.jpg",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/racetrack.png"
-  },
-  {
-    name: "Children's Games Event",
-    date: "5/7/2025",
-    place: "Amusement SVU",
-    rank: "Children's Activities",
-    discription: "Games festival and entertaining shows suitable for children and families.",
-    img: "assets/Img/kids-event.jpg",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/intertanment-land.png"
-  },
-  {
-    name: "Choose Your Major Workshop",
-    date: "17/10/2025",
-    place: "JoudAt Alhashmi School",
-    rank: "Educational Events",
-    discription: "A guidance workshop to help you choose the right university major.",
-    img: "assets/Img/select-your-major.jpeg",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/jaudat-alhashmi-school.png"
-  },
-  {
-    name: "The Big Exhibition",
-    date: "15/10/2025",
-    place: "Exhibition SVU",
-    rank: "Educational Events",
-    discription: "An exhibition featuring local shops and showcases of products and services.",
-    img: "assets/Img/Big-exhibition.webp",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/exhibition-SVU.png"
-  },
-  {
-    name: "Information Technology Exhibitions",
-    date: "15/11/2025",
-    place: "Al Damaroze Hotel",
-    rank: "Technical Events",
-    discription: "A technical exhibition featuring companies and displays of the latest IT solutions.",
-    img: "assets/Img/technology-exhibition.jpg",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/dama-rose-hotel.png"
-  },
-  {
-    name: "One Family Event",
-    date: "11/11/2025",
-    place: "Al Hamra Theater",
-    rank: "Family Activities",
-    discription: "A family celebration with theatrical performances and joint recreational activities.",
-    img: "assets/Img/one-family.jpg",
-    img1: "",
-    img2: "",
-    img3: "",
-    map: "assets/Img/alhamraa-theater.png"
-  }
-];
-
-// التقلب بين عربي و انكليزي
-let html = document.getElementsByTagName('html')[0];
-let title = document.getElementsByTagName('title')[0];
-function arLang(){
-  html.lang = "ar";
-  html.dir = "rtl";
-  header(html.lang);
-  footer(html.lang);
-  let currentPage = window.location.href.split('/').pop();
-  const params = new URLSearchParams(window.location.search);
-  const eventId = params.get("id");
-  switch (currentPage) {
-    case "index.html":
-      title.innerHTML = "دليل فعاليات الجامعة الافتراضية";
-      indexPage(html.lang);
-      break;
-    case "about.html":
-      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | عن الدليل";
-      aboutPage(html.lang);
-      break;
-    case "contact.html":
-      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | اتصل بنا";
-      contactPage(html.lang);
-      break;
-    case "events.html":
-      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | الفعاليات";
-      eventsPage(html.lang);
-      break;
-    case "event.html" + "?id=" + eventId:
-      title.innerHTML = "دليل فعاليات الجامعة الافتراضية | الفعالية";
-      eventPage(eventId, html.lang);
-      break;
-  }
-}
-function enLang(){
-  html.lang = "en";
-  html.dir = "ltr";
-  header(html.lang);
-  footer(html.lang);
-  let currentPage = window.location.href.split('/').pop();
-  const params = new URLSearchParams(window.location.search);
-  const eventId = params.get("id");
-  switch (currentPage) {
-    case "index.html":
-      indexPage(html.lang);
-      title.innerHTML = "SVU Events Guide";
-      break;
-    case "about.html":
-      title.innerHTML = "SVU Events Guide | About";
-      aboutPage(html.lang);
-      break;
-    case "contact.html":
-      title.innerHTML = "SVU Events Guide | Contact";
-      contactPage(html.lang);
-      break;
-    case "events.html":
-      title.innerHTML = "SVU Events Guide | Events";
-      eventsPage(html.lang);
-      break;
-    case "event.html" + "?id=" + eventId:
-      title.innerHTML = "SVU Events Guide | Event";
-      eventPage(eventId, html.lang);
-      break;
-  }
-}
 
 // header انشاء
-function header(lang) {
+function header() {
   let currentPage = window.location.href.split('/').pop();
-  let arr = lang == "ar" ? arData : enData;
+  let arr = data;
   const header = document.getElementsByTagName('header')[0];
   let vHtml = `
     <nav class="navbar navbar-expand-lg navbar-dark w-100">
@@ -303,12 +132,14 @@ function header(lang) {
             let liLink = arr.headerListLinks[i];
             let li =arr.headerList[i];
             vHtml += `
-              <li class="nav-item me-3"><a class="nav-link p-0 ${currentPage === liLink ? "active" : ""}" href="${liLink}">${li}<div class="underliner"></div></a></li>
+              <li class="nav-item me-3">
+                <a class="nav-link p-0 ${currentPage === liLink ? "active" : ""}" href="${liLink}">
+                  ${li}<div class="underliner"></div>
+                </a>
+              </li>
             `;
           }
           vHtml += `
-            <li class="nav-item me-3"><img onclick="arLang()" id="ar-lang" class="s-flag-ar align-self-center" src="assets/Img/ar.png" alt="Arabic"></li>
-            <li class="nav-item me-3"><img onclick="enLang()" id="en-lang" class="a-flag-en align-self-center" src="assets/Img/en.png" alt="English"></li>
           </ul>
         </div>
       </div>
@@ -318,8 +149,8 @@ function header(lang) {
 }
 
 // footer انشاء 
-function footer(lang) {
-  let arr = lang == "ar" ? arData : enData;
+function footer() {
+  let arr = data;
   const footer = document.getElementsByTagName('footer')[0];
   let vHtml = `
     <div class="footer-contact"><a href="mailto:info@svuevents.com">${arr.footerP}: info@svuevents.com</a></div>
@@ -331,11 +162,32 @@ function footer(lang) {
     </div>
   `;
   footer.innerHTML = vHtml;
+
+  // Add scroll to top button
+  if (!document.getElementById('scrollToTopBtn')) {
+    const btn = document.createElement('button');
+    btn.id = 'scrollToTopBtn';
+    btn.className = 'btn btn-primary scroll-to-top';
+    btn.innerHTML = '↑';
+    btn.onclick = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    document.body.appendChild(btn);
+    
+    // Add scroll event to show/hide button
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 200) {
+        btn.style.display = 'block';
+      } else {
+        btn.style.display = 'none';
+      }
+    });
+  }
 }
 
 // انشاء الصفحة الرئيسية
-function indexPage(lang){
-  let arr = lang == "ar" ? arIndexData : enIndexData;
+function indexPage(){
+  let arr = indexData;
   const idxMain = document.getElementById("index-main");
   let vHtml = `
     <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -398,114 +250,124 @@ function indexPage(lang){
 }
 
 // إنشاء كروت الفعاليات
-function eventsPage(lang){
-  let arr = lang == "ar" ? arEvents : enEvents;
-  let rankOption = lang == "ar" ? arRankOption: enRankOption;
-  let place = lang == "ar" ? arLocationOption: enLocationOption;
-  let button = lang == "ar" ? "التفاصيل" : "Details";
-  let h3 = lang == "ar" ? "تصفية الفعاليات حسب" : "Filter events by";
-  let options = lang == "ar" ? ["التاريخ", "التصنيف", "الموقع"] : ["Date", "Rank", "Location"];
-  eventHtml = document.getElementById('events-cards');
-  let vHtml = `
-    <!-- شريط الفلترة -->
-    <div class="input-group container pt-3">
-      <h3 class="pe-2 align-self-start mx-2">${h3}</h3>
-      <select class="form-select date-select" name="date" id="date-select">
-      <option value="">${options[0]}</option>
-      `;
-      for(let i = 0; i < dateOption.length; i++){
-        vHtml+= `
-          <option value="${i}">${dateOption[i]}</option>
-        `;
-      }
-      vHtml +=`
-      </select>
-      <select class="form-select rank-select" name="rank" id="rank-select">
-      <option value="">${options[1]}</option>
-      `;
-      for(let i = 0; i < rankOption.length; i++){
-        vHtml+= `
-          <option value="${i}">${rankOption[i]}</option>
-        `;
-      }
-      vHtml +=`
-      </select>
-      <select class="form-select location-select" name="location" id="location-select">
-      <option value="">${options[2]}</option>
-      `;
-      for(let i = 0; i < place.length; i++){
-        vHtml+= `
-          <option value="${i}">${place[i]}</option>
-        `;
-      }
-      vHtml +=`
-      </select>
-    </div>
-  `;
-  let i = 0;
-  for(; i < arr.length; i++){
-    if(i % 3 == 0){
-      vHtml += `<div class="row mt-1 g-4">`;
+function eventsPage(){
+  let arr = events;
+  let place = locationOption;
+  let options = ["التاريخ", "التصنيف", "الموقع"];
+  const eventHtml = document.getElementById('events-cards');
+
+  // دالة توليد الكروت حسب الفلاتر
+  function renderCards(filterType, filterValue) {
+    let filtered = arr;
+    if (filterType === 'date' && filterValue !== "") {
+      const val = dateOption[filterValue];
+      filtered = arr.filter(ev => ev.date === val);
+    } else if (filterType === 'rank' && filterValue !== "") {
+      const val = rankOption[filterValue];
+      filtered = arr.filter(ev => (ev.rank && ev.rank.includes(val)));
+    } else if (filterType === 'location' && filterValue !== "") {
+      const val = place[filterValue];
+      filtered = arr.filter(ev => (ev.place && ev.place.includes(val)));
     }
-    vHtml += `
-      <div class="col-12 col-md-4">
-        <div class="card">
-          <img src="${arr[i].img}" class="card-img-top" alt="Event">
-          <div class="card-body text-start">
-            <h5 class="card-title">${arr[i].name}</h5>
-            <p class="date">${arr[i].date}</p>
-            <p class="place">${arr[i].place}</p>
-            <p class="rank">${arr[i].rank}</p>
-            <p class="discription">${arr[i].discription}</p>
-            <a href="event.html?id=${i}"><button id="details-btn" class="btn btn-primary">${button}</button></a>
+    let vHtml = `
+      <div class="input-group container pt-3">
+        <h3 class="pe-2 align-self-start mx-2">تصفية الفعاليات حسب</h3>
+        <select class="form-select mx-2" id="filter-type-select">
+          <option value="">اختر نوع الفلتر</option>
+          <option value="date"${filterType==="date"?" selected":''}>${options[0]}</option>
+          <option value="rank"${filterType==="rank"?" selected":''}>${options[1]}</option>
+          <option value="location"${filterType==="location"?" selected":''}>${options[2]}</option>
+        </select>
+    `;
+    // قائمة القيم حسب نوع الفلتر
+    if (filterType === 'date') {
+      vHtml += `<select class="form-select" id="filter-value-select"><option value="">${options[0]}</option>`;
+      for(let i = 0; i < dateOption.length; i++){
+        vHtml+= `<option value="${i}"${filterValue==i?" selected":''}>${dateOption[i]}</option>`;
+      }
+      vHtml += `</select>`;
+    } else if (filterType === 'rank') {
+      vHtml += `<select class="form-select" id="filter-value-select"><option value="">${options[1]}</option>`;
+      for(let i = 0; i < rankOption.length; i++){
+        vHtml+= `<option value="${i}"${filterValue==i?" selected":''}>${rankOption[i]}</option>`;
+      }
+      vHtml += `</select>`;
+    } else if (filterType === 'location') {
+      vHtml += `<select class="form-select" id="filter-value-select"><option value="">${options[2]}</option>`;
+      for(let i = 0; i < place.length; i++){
+        vHtml+= `<option value="${i}"${filterValue==i?" selected":''}>${place[i]}</option>`;
+      }
+      vHtml += `</select>`;
+    }
+    vHtml += `</div>`;
+    for(let i = 0; i < filtered.length; i++){
+      if(i % 3 == 0){
+        vHtml += `<div class="row mt-1 g-4">`;
+      }
+      vHtml += `
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <img src="${filtered[i].img}" class="card-img-top" alt="Event">
+            <div class="card-body text-start">
+              <h5 class="card-title">${filtered[i].name}</h5>
+              <p class="date">${filtered[i].date}</p>
+              <p class="place">${filtered[i].place}</p>
+              <p class="rank">${filtered[i].rank}</p>
+              <p class="discription">${filtered[i].discription}</p>
+              <a href="event.html?id=${arr.indexOf(filtered[i])}"><button class="btn btn-primary details-btn">التفاصيل</button></a>
+            </div>
           </div>
-        </div>
-      </div>`;
-    if(i == 2 || i == 5 || i == 8){
-      vHtml += `</div>`;
+        </div>`;
+      if(i % 3 == 2 || i === filtered.length-1){
+        vHtml += `</div>`;
+      }
+    }
+    eventHtml.innerHTML = vHtml;
+    // تفعيل زر التفاصيل
+    document.querySelectorAll('.details-btn').forEach(btn => {
+      btn.onclick = function(e){
+        const idx = btn.parentElement.parentElement.parentElement.querySelector('a').href.split('id=')[1];
+        eventPage(idx);
+      };
+    });
+    // تفعيل الفلاتر
+    document.getElementById('filter-type-select').onchange = function(){
+      renderCards(this.value, "");
+    };
+    const valueSelect = document.getElementById('filter-value-select');
+    if(valueSelect){
+      valueSelect.onchange = function(){
+        renderCards(filterType, this.value);
+      };
     }
   }
-  eventHtml.innerHTML = vHtml;
-  document.getElementById('details-btn').onclick = () => {
-    eventPage(i, lang);
-  };
-  // let date = "";
-  // let rank = ""; 
-  // let location = "";
-  // document.getElementById('date-select').onchange = () => {
-  //   date = document.getElementById('date-select').value;
-  // };
-  // document.getElementById('rank-select').onchange = () => {
-  //   rank = document.getElementById('rank-select').value;
-  // };
-  // document.getElementById('location-select').onchange = () => {
-  //   location = document.getElementById('location-select').value;
-  // };
+  // أول تحميل: عرض كل شيء
+  renderCards("", "");
 }
 
 // انشاء صحفة الفعالية
-function eventPage(idx, lang){
-  let arr = lang == "ar" ? arEvents : enEvents;
+function eventPage(idx){
+  let arr = events;
   let item = arr[idx];
-  let addbtn = lang == "ar" ? "اضف للتقويم" : "Add to calender";
-  let goinbtn = lang == "ar" ? "شارك" : "Goin";
-  let h3 = lang == "ar" ? "فعاليات ذات صلة" : "Related Events";
-  let location = lang == "ar" ? "الموقع": "Location";
-  let button = lang == "ar" ? "التفاصيل" : "Details";
-  let morePhotos = lang == "ar" ? "المزيد من الصور" : "More Photos"
+  let addbtn = "اضف للتقويم";
+  let sharebtn = "مشاركة";
+  let h3 = "فعاليات ذات صلة";
+  let location = "الموقع";
+  let button = "التفاصيل";
+  let morePhotos = "المزيد من الصور";
   let event = document.getElementById("event-main");
   let vHtml2 = `
     <div class="row">
       <img src="${item.img}" class="event-img col-6" alt="Event">
       <div class="card col-6 p-0">
         <div class="card-body text-start">
-          <h4 class="card-title">${item.name}</h5>
+          <h4 class="card-title">${item.name}</h4>
           <p class="date">${item.date}</p>
           <p class="place">${item.place}</p>
           <p class="rank">${item.rank}</p>
           <p class="discription">${item.discription}</p>
-          <button class="btn btn-warning">${addbtn}</button>
-          <button class="btn btn-success">${goinbtn}</button>
+          <button class="btn btn-warning w-25 mb-1">${addbtn}</button>
+          <button id="share-btn" class="btn btn-success w-25">${sharebtn}</button>
         </div>
         <div id="more-photos" class="card-footer">
           <h5>${morePhotos}</h5>
@@ -545,14 +407,63 @@ function eventPage(idx, lang){
     }
   }
   event.innerHTML = vHtml2;
+  // تفعيل زر المشاركة
+  const shareBtn = document.getElementById('share-btn');
+  if (shareBtn) {
+    shareBtn.onclick = function() {
+      const shareData = {
+        title: item.name,
+        text: `${item.name} - ${item.discription}\n${item.date} - ${item.place}`,
+        url: window.location.href
+      };
+      if (navigator.share) {
+        navigator.share(shareData).catch(()=>{});
+      } else {
+        // fallback: نسخ الرابط
+        navigator.clipboard.writeText(window.location.href);
+        shareBtn.innerText = 'تم نسخ الرابط!';
+        setTimeout(()=>{ shareBtn.innerText = 'مشاركة'; }, 2000);
+      }
+    };
+  }
+
+  // تفعيل زر أضف للتقويم
+  const addToCalBtn = document.querySelector('.btn-warning');
+  if (addToCalBtn) {
+    addToCalBtn.onclick = function() {
+      // تحويل التاريخ إلى صيغة YYYYMMDD
+      function formatDate(dateStr) {
+        // توقع الصيغة: يوم/شهر/سنة
+        const parts = dateStr.split('/');
+        if (parts.length === 3) {
+          return parts[2] + parts[1].padStart(2, '0') + parts[0].padStart(2, '0');
+        }
+        return dateStr;
+      }
+      const dt = formatDate(item.date);
+      // ملف ics بسيط
+      const ics = `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:${item.name}\nDESCRIPTION:${item.discription}\nLOCATION:${item.place}\nDTSTART:${dt}\nDTEND:${dt}\nEND:VEVENT\nEND:VCALENDAR`;
+      const blob = new Blob([ics], { type: 'text/calendar' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${item.name}.ics`;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(()=>{
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 100);
+    };
+  }
 }
 
 // انشاء صفحة اتصل بنا
-function contactPage(lang){
-  let arr = lang == "ar" ? arContact : enContact;
-  let alertMsg = lang == "ar" ? "املأ الحقول بشكل صحيح." : "Please fill in all fields correctly.";
-  let successMsg = lang == "ar" ? "تم إرسال الرسالة بنجاح." : "Message sent successfully.";
-  let contact = document.getElementById('contact-main');
+function contactPage(){
+  let arr = contact;
+  let alertMsg = "املأ الحقول بشكل صحيح.";
+  let successMsg = "تم إرسال الرسالة بنجاح.";
+  let contactMain = document.getElementById('contact-main');
   let vHtml = `
     <form class="form-control mx-auto px-4 pt-4">
       <div class="row">
@@ -601,29 +512,46 @@ function contactPage(lang){
       </div>
     </form>
   `;
-  contact.innerHTML = vHtml;
-  // لاظهار تنبيه في حالة لم يدخل مدخلات مقبولة
+  contactMain.innerHTML = vHtml;
+  // التحقق باستخدام regular expressions
   function checkform(event){
     event.preventDefault();
-    if( document.getElementById('name-input').value === "" ||
-        !document.getElementById('email-input').value.includes('@') ||
-        document.getElementById('message-input').value === ""
-      )
-    {
-      document.getElementById('successAlert').classList.add('d-none');
-      document.getElementById('errorAlert').classList.remove('d-none');
+    const name = document.getElementById('name-input').value.trim();
+    const email = document.getElementById('email-input').value.trim();
+    const message = document.getElementById('message-input').value.trim();
+    // اسم عربي أو إنجليزي على الأقل حرفين
+    const correctName = /^[\p{L} ]{2,}$/u;
+    // بريد إلكتروني بسيط
+    const correctEmail = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/;
+    // رسالة لا تقل عن 5 أحرف
+    const correctMsg = /^.{5,}$/s;
+    let valid = true;
+    if (!correctName.test(name)) {
       document.getElementById('name-input').classList.add('is-invalid');
-      document.getElementById('email-input').classList.add('is-invalid');
-      document.getElementById('message-input').classList.add('is-invalid');
-    }
-    else{
-      document.getElementById('errorAlert').classList.add('d-none');
+      valid = false;
+    } else {
       document.getElementById('name-input').classList.remove('is-invalid');
       document.getElementById('name-input').classList.add('is-valid');
+    }
+    if (!correctEmail.test(email)) {
+      document.getElementById('email-input').classList.add('is-invalid');
+      valid = false;
+    } else {
       document.getElementById('email-input').classList.remove('is-invalid');
       document.getElementById('email-input').classList.add('is-valid');
+    }
+    if (!correctMsg.test(message)) {
+      document.getElementById('message-input').classList.add('is-invalid');
+      valid = false;
+    } else {
       document.getElementById('message-input').classList.remove('is-invalid');
       document.getElementById('message-input').classList.add('is-valid');
+    }
+    if (!valid) {
+      document.getElementById('successAlert').classList.add('d-none');
+      document.getElementById('errorAlert').classList.remove('d-none');
+    } else {
+      document.getElementById('errorAlert').classList.add('d-none');
       document.getElementById('successAlert').classList.remove('d-none');
     }
   }
@@ -631,11 +559,11 @@ function contactPage(lang){
 }
 
 // انشاء صفحة عن الدليل
-function aboutPage(lang){
-  let arr = lang == "ar" ? arAbout : enAbout;
-  let team = lang == "ar" ? "فريق العمل" : "Our Team";
-  let share = lang == "ar" ? "سياسة النشر" : "Publication policy";
-  let about = document.getElementById('about-main');
+function aboutPage(){
+  let arr = about;
+  let team = "فريق العمل";
+  let share = "سياسة النشر";
+  let aboutMain = document.getElementById('about-main');
   let vHtml = `
     <p class="px-3 text-center">
       ${arr.p} info@svuevents.com
@@ -643,23 +571,31 @@ function aboutPage(lang){
     <!-- فريق العمل -->
     <h2><b>${team}</b></h2>
     <div class="row justify-content-around partners">
-      <div class="col-1"></div>
-      <div class="card partners-card col-12 col-sm-4"> 
+      <div class="col"></div>
+      <div class="card partners-card col-12 col-sm-3"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img1}" alt="">
         <div class="card-body text-center pt-5 pb-0">
-          <h4>muhammad_ 297424</h4>
-          <p>JS with some HTML and CSS</p>
+          <h5><b>muhammad_ 297424 C5</b></h5>
+          <p>JavaScript</p>
         </div>
       </div>
-      <div class="col-2"></div>
-      <div id="woman-partner" class="card partners-card col-12 col-sm-4"> 
+      <div class="col-1"></div>
+      <div class="card partners-card col-12 col-sm-3"> 
         <img class="partners-img rounded-circle object-fit-fill" src="${arr.img2}" alt="">
         <div class="card-body text-center pt-5 pb-0">
-          <h4>marian_000000</h4>
+          <h5><b>maryan_286029 C5</b></h5>
           <p>HTML CSS</p>
         </div>
       </div>
       <div class="col-1"></div>
+      <div class="card partners-card col-12 col-sm-3"> 
+        <img class="partners-img rounded-circle object-fit-fill" src="${arr.img2}" alt="">
+        <div class="card-body text-center pt-5 pb-0">
+          <h5><b>riam_304965 C3</b></h5>
+          <p>HTML CSS</p>
+        </div>
+      </div>
+      <div class="col"></div>
     </div>
     <!-- سياسةالنشر -->
     <div class="row">
@@ -667,5 +603,5 @@ function aboutPage(lang){
       <p>${arr.policy}</p>
     </div>
   `;
-  about.innerHTML = vHtml;
+  aboutMain.innerHTML = vHtml;
 }
